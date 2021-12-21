@@ -150,6 +150,7 @@ export default function Home() {
           </div>
           <div className="mt-10 w-full max-w-xs">
             <button
+              className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
               className=""
               onClick={() => connectWallet('injected')} >
               Connect
@@ -397,7 +398,7 @@ export default function Home() {
         </div>
         <div className="mt-10 w-full max-w-xs">
           <button
-            className=""
+            className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
             disabled={isClaiming}
             onClick={() => mintNFT()}
           >
